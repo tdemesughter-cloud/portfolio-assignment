@@ -1,0 +1,134 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #150f24;
+  color: #ece7f7;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #1f1736;
+}
+
+nav a {
+  color: #ece7f7;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  color: #b89cff;
+}
+
+/* Sections */
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h2 {
+  color: #b89cff;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Home section */
+.hero {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid #b89cff;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 25px;
+  background-color: #b89cff;
+  color: #150f24;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #cdb9ff;
+}
+
+/* Skills */
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  background-color: #2a1d4d;
+  padding: 8px 16px;
+  margin: 5px 5px 5px 0;
+  border-radius: 20px;
+}
+
+/* Projects */
+.project {
+  background-color: #1f1736;
+  border-left: 4px solid #b89cff;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+}
+
+.project h3 {
+  margin-bottom: 5px;
+}
+
+/* Student details */
+.student-details dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 8px 16px;
+  padding: 15px 20px;
+  background-color: #1f1736;
+  border-left: 4px solid #b89cff;
+}
+
+.student-details dt {
+  color: #b89cff;
+  font-weight: bold;
+}
+
+/* Contact */
+a {
+  color: #b89cff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1736;
+}
